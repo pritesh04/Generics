@@ -21,6 +21,16 @@ public class Number {
 				System.out.println(" c is greater");
 			}
 	 }
+	public void compare(String a ,String  b ,String  c )
+	 {
+		 if (a.compareTo(b) > -1 && a.compareTo(c) > -1) {
+				System.out.println("a is greater");
+			} else if ((b.compareTo(a)) > -1 && (b.compareTo(c)) > -1) {
+				System.out.println(" b is greater");
+			} else if ((c.compareTo(a)) > -1 && (c.compareTo(b)) > -1) {
+				System.out.println(" c is greater");
+			}
+	 }
 	
 public static void main(String[] args) {
 	Integer a = 10;
@@ -35,6 +45,11 @@ public static void main(String[] args) {
 	Number floatObj= new Number();
 	floatObj.compare(d, e, f);
 	
+	String g="pritesh";
+	String h="aniket";
+	String i="yash";
+	Number stringObj= new Number();
+	stringObj.compare(g, h, i);
 	
 	
 	
