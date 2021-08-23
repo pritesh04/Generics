@@ -49,13 +49,13 @@ public class Number<T extends Comparable<T>> {
 		//Number stringObj = new Number();
 		//compare(g, h, i);
 		
-		Number inta = new Number(a, b, c);
-		Number floata = new Number(d,e,f);
-		Number stringa = new Number(g,h,i);
+		Number intObj = new Number(a, b, c);
+		Number floatObj = new Number(d,e,f);
+		Number stringObj = new Number(g,h,i);
 		
-		inta.compute();
-		floata.compute();
-		stringa.compute();
+		intObj.compute();
+		floatObj.compute();
+		stringObj.compute();
 		
 
 	}
